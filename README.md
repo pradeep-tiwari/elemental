@@ -1,1 +1,3 @@
-# elemental
+# Elemental CSS
+
+> Lightweight CSS library.

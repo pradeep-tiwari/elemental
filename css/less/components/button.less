@@ -1,0 +1,75 @@
+@import "../themes/button";
+
+.button {
+    margin: 0;
+    border: none;
+    overflow: visible;
+    font: inherit;
+    font-size: @button-font-size;
+    font-weight: @button-font-weight;
+    color: inherit;
+    background-color: @global-color-muted;
+    text-transform: @button-text-transform;
+    -webkit-appearance: none;
+    border-radius: @button-border-radius;
+    display: inline-block;
+    padding: 0 @button-padding-horizontal;
+    vertical-align: middle;
+    line-height: @button-line-height;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.button:not(:disabled) {
+    cursor: pointer;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:hover:not(:disabled) {
+    box-shadow: @button-box-shadow;
+}
+
+.button-border {
+    border-radius: @button-border-radius;
+}
+
+.button-pill {
+    border-radius: @button-line-height / 2;
+}
+
+.button-text {
+    background-color: transparent !important;
+}
+
+.button-primary {
+    color: @global-color-white !important;
+    background-color: @global-color-primary;
+}
+
+.button-secondary {
+    color: @global-color-white !important;
+    background-color: @global-color-secondary;
+}
+
+.button-warning {
+    color: @global-color-white !important;
+    background-color: @global-color-warning;
+}
+
+.button-success {
+    color: @global-color-white !important;
+    background-color: @global-color-success;
+}
+
+.button-danger {
+    color: @global-color-white !important;
+    background-color: @global-color-danger;
+}

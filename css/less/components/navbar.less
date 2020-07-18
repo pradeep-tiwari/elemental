@@ -1,0 +1,41 @@
+@import "../themes/navbar";
+
+.navbar {
+    display: flex;
+    background-color: @navbar-background;
+    overflow: auto;
+    padding: @navbar-padding;
+}
+
+.navbar-left, .navbar-right, .navbar-center {
+    display: flex;
+}
+
+.navbar-left {
+    margin-right: auto;
+}
+
+.navbar-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-right {
+    margin-left: auto;
+}
+
+.navbar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: @navbar-item-padding;
+    text-decoration: none;
+    text-transform: @navbar-item-text-transform;
+    color: @navbar-item-color;
+    font-size: @navbar-item-font-size;
+    font-weight: @navbar-item-font-weight;
+}
+
+.navbar-item:visited {
+    color: @navbar-item-color;
+}

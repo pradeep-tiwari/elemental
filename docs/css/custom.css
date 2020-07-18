@@ -1,0 +1,13 @@
+h1 a,
+h2 a,
+h3 a {
+    font-size: inherit !important;
+}
+
+a {
+    color: inherit !important;
+}
+
+.navbar-item {
+    font-weight: normal !important;
+}

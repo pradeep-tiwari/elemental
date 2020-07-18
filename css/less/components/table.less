@@ -1,0 +1,19 @@
+@import "../themes/table";
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    width: 100%;
+}
+table th {
+    border-bottom-width: 0.1rem;
+}
+table th,
+table td {
+    border-left: @table-border-left;
+    border-right: @table-border-right;
+    border-top: @table-border-top;
+    border-bottom: @table-border-bottom;
+    padding: @table-padding;
+}

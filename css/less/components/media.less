@@ -1,0 +1,22 @@
+@import "../themes/media";
+
+canvas, img, video {
+    max-width: 100%;
+    height: auto;
+}
+audio, canvas, iframe, img, svg, video {
+    vertical-align: middle;
+}
+
+.avatar {
+    width: @media-avatar-width;
+    height: @media-avatar-height;
+}
+
+.avatar-circle {
+    border-radius: 50%;
+}
+
+.thumbnail {
+    width: @media-thumbnail-width;
+}
